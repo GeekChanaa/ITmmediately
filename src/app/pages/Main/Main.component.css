@@ -1,0 +1,110 @@
+
+/******* the main section *****/
+.line{
+    border : 2px solid black;
+    width: 150px;
+    height: 1px;
+    position: relative;
+    top:6px;
+}
+
+.main-title{
+    font-size: 5em;
+    font-weight: 400;
+    color: #3A393A;
+}
+
+.main-sub{
+    font-size : 1.5em;
+    font-weight: 100;
+    color: #3A393A;
+}
+
+
+.section-buttons button{
+    font-size: 1em;
+    font-weight: 300;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.stroked-main-button{
+    border-width: 4px;
+    border-radius: 24px;
+    border-color: #3f51b5;
+}
+
+.flat-main-button{
+    border-radius: 24px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+/****** about us section *****/
+
+.aboutus-title{
+    font-size:4.2em;
+    font-weight: 400;
+}
+
+.aboutus-content{
+    color:#33333380;
+    text-align: justify;
+}
+
+.aboutus-button{
+    font-size:1.2em;
+    padding: 10px 30px 10px 30px;
+}
+
+.aboutus{
+    font-size: 1.5em;
+    color: #75a0cb;
+}
+
+.services-title{
+    font-size:3em
+}
+
+.services-sub-title{
+    color:#B73382;
+    font-size:2em
+}
+
+.mt-100{
+    margin-top:5em
+}
+
+/******** Testimonial Section ********/
+
+.testimonials-title{
+    font-size: 5.8em;
+}
+
+.testimonials-sub-title{
+    font-size: 2em;
+}
+
+.testimonial-div{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 10px 20px 40px #00000018;
+    border-radius: 32px;
+    padding: 50px 50px 50px 50px;
+}
+
+.testimonial-pic{
+    background: black 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 30px #00000018;
+    border-radius: 20px;
+    width: 140px;
+    height: 136px;
+    position: absolute;
+    bottom :210px;
+    left: 9px;
+    border:9px solid white;
+}
+
+.testimonial-button{
+    font-size:1em;
+    padding: 10px 50px 10px 50px;
+}
