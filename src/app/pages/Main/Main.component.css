@@ -50,6 +50,7 @@
 .aboutus-content{
     color:#33333380;
     text-align: justify;
+    max-width: 29.375rem;
 }
 
 .aboutus-button{
@@ -58,12 +59,12 @@
 }
 
 .aboutus{
-    font-size: 1.5em;
-    color: #75a0cb;
+    font-size: 1.2em;
+    color: #27358B;
 }
 
 .services-title{
-    font-size:3em
+    font-size:5em
 }
 
 .services-sub-title{
@@ -71,18 +72,39 @@
     font-size:2em
 }
 
+
+.vlt-testimonial__text p{
+    max-width: 87%;
+}
+
+.swiper-container{
+    margin-left : 20px;
+    max-width: 90%
+}
+
 .mt-100{
     margin-top:5em
 }
 
+
+/******* services 2 *******/
+.vertical-slider{
+    height: 500px;
+    width: 500px;
+    box-shadow: 22px 44px 59px #15101059;
+    border-radius: 50%;
+}
+
+
 /******** Testimonial Section ********/
 
 .testimonials-title{
-    font-size: 5.8em;
+    font-size: 5em;
 }
 
 .testimonials-sub-title{
     font-size: 2em;
+    color : #27358B;
 }
 
 .testimonial-div{
@@ -107,4 +129,18 @@
 .testimonial-button{
     font-size:1em;
     padding: 10px 50px 10px 50px;
+}
+
+.testimonial-pdp{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: black;
+    border: 10px solid white;
+    box-shadow: 5px 10px 30px #00000018;
+    position: relative;
+}
+
+.slider-testimonials-dots svg{
+    margin: auto;
 }

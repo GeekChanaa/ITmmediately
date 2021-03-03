@@ -19,6 +19,7 @@ export class PagesComponent implements OnInit {
     const dynamicJs = [
       "https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js",
       "/assets/vendor/jquery-3.5.1.min.js",
+      "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js",
       // "/assets/vendor/animsition.min.js",
       // "/assets/vendor/fastclick.js",
       // "/assets/vendor/css-vars-ponyfill.min.js",
@@ -55,6 +56,7 @@ export class PagesComponent implements OnInit {
       "assets/css/plugins/jquery.fancybox.min.css",
       "assets/css/plugins/superfish.css",
       "assets/css/plugins/swiper.min.css",
+      "https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
     ];
     for(let i = 0; i< dynamicCss.length;i++){
       const node = document.createElement('link');

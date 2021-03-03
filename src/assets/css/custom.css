@@ -13,3 +13,11 @@
 .gap-10{
     height:1em
 }
+
+.m-auto{
+    margin : auto
+}
+
+.slider-div-controllers svg{
+    height: 6px;
+}

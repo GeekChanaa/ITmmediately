@@ -13,6 +13,7 @@ import { MainComponent } from './pages/Main/Main.component';
 import { AboutusComponent } from './pages/Aboutus/Aboutus.component';
 import { ServicesComponent } from './pages/Services/Services.component';
 import { Services2Component } from './pages/Services2/Services2.component';
+import { ThreeComponent } from './pages/three/three.component';
 
 @NgModule({
   declarations: [		
@@ -22,7 +23,8 @@ import { Services2Component } from './pages/Services2/Services2.component';
       MainComponent,
       ServicesComponent,
       AboutusComponent,
-      Services2Component
+      Services2Component,
+      ThreeComponent
    ],
   imports: [
     BrowserModule,

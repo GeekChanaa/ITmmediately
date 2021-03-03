@@ -23,8 +23,10 @@
     "@angular/platform-browser-dynamic": "~11.0.9",
     "@angular/router": "~11.0.9",
     "@ng-bootstrap/ng-bootstrap": "^9.0.2",
+    "@types/three": "^0.125.3",
     "bootstrap": "^4.5.0",
     "rxjs": "~6.6.0",
+    "three": "^0.126.1",
     "tslib": "^2.0.0",
     "zone.js": "~0.10.2"
   },
