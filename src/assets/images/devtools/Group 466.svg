@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="131.732" height="131.732" viewBox="0 0 131.732 131.732">
+  <defs>
+    <clipPath id="clip-path">
+      <path id="Path_845" data-name="Path 845" d="M48.049,12.5,27.287.517a4.824,4.824,0,0,0-4.349,0L2.175,12.5A4.825,4.825,0,0,0,0,16.271V40.246a4.76,4.76,0,0,0,2.175,3.767L22.937,56a4.824,4.824,0,0,0,4.349,0L48.049,44.013a4.67,4.67,0,0,0,2.175-3.767V16.271A4.929,4.929,0,0,0,48.049,12.5Z" transform="translate(0 0.001)" fill="#fff"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.342" y1="0.303" x2="0.826" y2="0.908" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3b009b"/>
+      <stop offset="1" stop-color="#390086"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.279" y1="0.356" x2="0.544" y2="0.89" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#340084"/>
+      <stop offset="1" stop-color="#290064"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="0.29" y1="0.168" x2="0.561" y2="0.597" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#a47ede"/>
+      <stop offset="1" stop-color="#9866d3"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_466" data-name="Group 466" transform="translate(49.152 -0.313) rotate(31)">
+    <rect id="Rectangle_375" data-name="Rectangle 375" width="96" height="96" rx="48" transform="translate(0.411 0.118)" fill="rgba(153,104,211,0.43)"/>
+    <g id="C_Sharp_logo" transform="translate(23.086 20.108)">
+      <g id="Group_465" data-name="Group 465" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="Path_842" data-name="Path 842" d="M222.588,124.487h29.525v30.19H222.588Z" transform="translate(-198.017 -110.745)" fill="url(#linear-gradient)"/>
+        <path id="Path_843" data-name="Path 843" d="M27.487,230.616l-38-21.986h-19.4v36.4h57.4Z" transform="translate(26.609 -185.6)" fill="url(#linear-gradient-2)"/>
+        <path id="Path_844" data-name="Path 844" d="M-29.911,31.806l57.4-33.214V-14.513h-57.4Z" transform="translate(26.609 12.911)" fill="url(#linear-gradient-3)"/>
+      </g>
+      <path id="Path_846" data-name="Path 846" d="M75.827,121.3c-.1-16.347,21.8-23.565,31.239-8.376l-7.245,4.193a8.372,8.372,0,1,0,0,8.366l7.245,4.192C98.746,144.125,76.247,138.928,75.827,121.3Zm27.616-4.747h1.38l-.943,9.107h-1.406Zm2.956,0h1.38l-.943,9.107H105.43Zm-4.5,2.163h6.9v1.333h-6.9Zm-.386,3.246h6.9V123.3h-6.9Z" transform="translate(-67.457 -93.045)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -33,9 +33,12 @@ export class PagesComponent implements OnInit {
       // "/assets/vendor/superclick.min.js",
       // "/assets/vendor/swiper.min.js",
       "/assets/js/vlt-plugins.min.js",
+      "https://www.goat1000.com/jquery.tagcanvas.min.js",
       "/assets/js/vlt-helpers.js",
       "/assets/js/vlt-controllers.min.js",
-      "/assets/js/custom.js"
+      "/assets/js/custom.js",
+
+
     ];
     for(let i = 0; i< dynamicJs.length;i++){
       const node = document.createElement('script');
