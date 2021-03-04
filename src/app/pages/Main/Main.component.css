@@ -139,8 +139,24 @@
     border: 10px solid white;
     box-shadow: 5px 10px 30px #00000018;
     position: relative;
+    bottom:0;
+    transition:all 1s ease;
 }
 
 .slider-testimonials-dots svg{
     margin: auto;
+}
+
+.t1{
+    -webkit-transition:all .5s ease;
+       -moz-transition:all .5s ease;
+        -ms-transition:all .5s ease;
+         -o-transition:all .5s ease;
+            transition:all .5s ease;
+}
+.testimonial-pdp:hover{
+    bottom : 30px;
+    /* height: 130px;
+    width: 130px; */
+    cursor: pointer;
 }

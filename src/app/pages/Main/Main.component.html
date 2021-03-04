@@ -291,16 +291,16 @@
 									<h1 class="testimonials-title">What Our Customers Say</h1>
 									<div class="vlt-gap-40"></div>
 									<div class="row col-xl-12">
-										<div class="testimonial-pdp">
+										<div class="testimonial-pdp" (click)="changeContent(1)">
 											
 										</div>
-										<div class="testimonial-pdp" style="left:-35px">
+										<div class="testimonial-pdp t1" (click)="changeContent(2)" style="left: -35px;">
 											
 										</div>
-										<div class="testimonial-pdp" style="left:-70px">
+										<div class="testimonial-pdp t" (click)="changeContent(3)" style="left:-70px">
 											
 										</div>
-										<div class="testimonial-pdp" style="left:-105px">
+										<div class="testimonial-pdp t" style="left:-105px">
 											
 										</div>
 									</div>
@@ -314,15 +314,15 @@
 								<div class="col-xl-6">
 									<div class="col-xl-7 offset-xl-3 testimonial-div">
 										<div class="text-center">
-											<h6>Ainara Vergara</h6>
-											<p>Microsoft</p>
+											<h6>{{testimonial.name}}</h6>
+											<p>{{testimonial.desc}}</p>
 											<div class="testimonial-pic">
 
 											</div>
 										</div>
 										<div class="vlt-gap-50"></div>
 										<div>
-											<p>"Though the gravity still dragged at him, his muscles were making great efforts to adjust. After the daily classes he no longer collapsed immediately into bed. Only the nightmares got worse."</p>
+											<p>"{{testimonial.content}}"</p>
 										</div>
 										<div class="col-xl-6 offset-xl-3 row text-center m-auto slider-div-controllers slider-testimonials-dots">
 											<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> <path d="M256,0C115.39,0,0,115.39,0,256s115.39,256,256,256s256-115.39,256-256S396.61,0,256,0z"/> </svg>
