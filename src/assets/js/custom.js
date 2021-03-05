@@ -15,6 +15,27 @@
         });
        
       });
+      var changed = false;
+      function changeTitle(){
+          if(!changed){
+            $('.title1').css('display','none');
+            $('.title2').css('display','block');
+            changed=true;
+          }
+          else{
+            $('.title1').css('display','block');
+            $('.title2').css('display','none');
+            changed=false;
+          }
+          setTimeout(() => {
+            changeTitle();
+          }, 6000);
+      }
+
+      setTimeout(() => {
+        changeTitle();
+      }, 6000);
+
 
 
   

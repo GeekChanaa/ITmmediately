@@ -1,5 +1,9 @@
 
 /******* the main section *****/
+
+/* TypeWriting animation */
+/* Animation */
+
 .line{
     border : 2px solid black;
     width: 150px;
@@ -12,6 +16,10 @@
     font-size: 5em;
     font-weight: 400;
     color: #3A393A;
+}
+
+.title2{
+    display:none;
 }
 
 .main-sub{
@@ -115,7 +123,8 @@
 }
 
 .testimonial-pic{
-    background: black 0% 0% no-repeat padding-box;
+    background-image: url('/assets/images/customers/1.jpg');
+    background-size: cover;
     box-shadow: 5px 10px 30px #00000018;
     border-radius: 20px;
     width: 140px;
@@ -125,6 +134,24 @@
     left: 9px;
     border:9px solid white;
 }
+
+.testimonial-controls{
+    height: 8px;
+    width: 8px;
+    border-radius: 50%;
+    background : black;
+    margin: auto;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.testimonial-controls:hover{
+    height: 11px;
+    width: 11px;
+    border: 2px solid black;
+    background: white;
+}
+
 
 .testimonial-button{
     font-size:1em;
