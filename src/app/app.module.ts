@@ -12,6 +12,8 @@ import {MatButtonModule} from '@angular/material/button';
 import { MainComponent } from './pages/Main/Main.component';
 import { AboutusComponent } from './pages/Aboutus/Aboutus.component';
 
+import {SwiperModule} from 'swiper/angular';
+
 @NgModule({
   declarations: [		
       AppComponent,
@@ -26,6 +28,7 @@ import { AboutusComponent } from './pages/Aboutus/Aboutus.component';
     NgbModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    SwiperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

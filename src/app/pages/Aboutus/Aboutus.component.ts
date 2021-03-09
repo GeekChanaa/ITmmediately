@@ -1,5 +1,5 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
-
+import SwiperCore from 'swiper/core';
 @Component({
   selector: 'app-Aboutus',
   templateUrl: './Aboutus.component.html',
@@ -20,6 +20,13 @@ export class AboutusComponent implements OnInit {
   }
 
   ngOnInit() {
+  }
+
+  onSwiper(swiper) {
+    console.log(swiper);
+  }
+  onSlideChange() {
+    console.log('slide change');
   }
 
     // changing slider content with typing animation ( the animation is not working yet)
