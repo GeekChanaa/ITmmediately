@@ -330,7 +330,7 @@
 -------------------------------------------- */
 .has-accent-color
 {
-    color: #cf000f;
+    color: #58439b;
 }
 
 .has-white-color
@@ -1101,7 +1101,7 @@ address
 
     margin-bottom: 1.875rem;
 
-    color: #fff;
+    color: black;
 }
 
 /* BLOCKQUOTE
@@ -1167,9 +1167,9 @@ select
     -webkit-transition: all 300ms;
             transition: all 300ms;
 
-    color: #fff;
+    color: black;
     border: none;
-    border-bottom: 1px solid rgba(255, 255, 255, .4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
     outline: none; 
     background-color: transparent;
 
@@ -1201,7 +1201,7 @@ input[type='number']:focus,
 textarea:focus,
 select:focus
 {
-    border-color: #fff;
+    border-color: rgb(167, 139, 247);
 }
 
 select
@@ -1236,7 +1236,7 @@ textarea.placeholder,
 select.placeholder
 {
     opacity: 1; 
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 input[type='text']:-moz-placeholder,
@@ -1251,7 +1251,7 @@ textarea:-moz-placeholder,
 select:-moz-placeholder
 {
     opacity: 1; 
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 input[type='text']::-moz-placeholder,
@@ -1266,7 +1266,7 @@ textarea::-moz-placeholder,
 select::-moz-placeholder
 {
     opacity: 1; 
-    color: rgba(255, 255, 255, .6);
+    color: rgba(0, 0, 0, 0.4);
 }
 
 input[type='text']:-ms-input-placeholder,
@@ -1614,7 +1614,7 @@ select:focus::-webkit-input-placeholder
 }
 .vlt-menu-burger:hover
 {
-    color: inherit;
+    color: black;
 }
 .vlt-menu-burger--opened:hover svg
 {
@@ -1698,7 +1698,7 @@ select:focus::-webkit-input-placeholder
     -webkit-transform: translate3d(100%, 0, 0);
             transform: translate3d(100%, 0, 0);
 
-    color: #fff;
+    color: black;
     background-color:white;
 
     -webkit-box-orient: vertical;
@@ -1812,7 +1812,7 @@ select:focus::-webkit-input-placeholder
 .vlt-offcanvas-menu__navigation .sf-menu > li.active > a,
 .vlt-offcanvas-menu__navigation .sf-menu > li:hover > a
 {
-    color: #cf000f;
+    color: #31338a;
 }
 .vlt-offcanvas-menu__footer
 {
@@ -2907,14 +2907,15 @@ select:focus::-webkit-input-placeholder
     text-transform: uppercase;
 
     color: #fff;
-    background-color: #cf000f;
+    background-color: #749fcb;
 }
 .vlt-btn--primary:hover
 {
-    color: #fff;
+    color: #749fcb;
     background-color: transparent;
     -webkit-box-shadow: inset 0 0 0 1px #fff;
             box-shadow: inset 0 0 0 1px #fff;
+    border : 1px solid #749fcb
 }
 
 /* BUTTON SIZES
@@ -3247,7 +3248,7 @@ select:focus::-webkit-input-placeholder
             transform-origin: top;
 
     border-radius: .3125rem;
-    background-color: #cf000f;
+    background-color: #58439b;
 }
 
 /* WIDGET: PARTNERS

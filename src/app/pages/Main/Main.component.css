@@ -94,6 +94,9 @@
     margin-top:5em
 }
 
+.swiper-pagination .swiper-pagination-bullet{
+    margin:auto
+}
 
 /******* services 2 *******/
 .vertical-slider{

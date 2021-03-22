@@ -147,11 +147,11 @@
 						prevEl: $(anchor).find('.vlt-swiper-button-prev'),
 					},
 					pagination: {
-						el: $(anchor).find('.vlt-swiper-pagination'),
+						el: '.swiper-pagination',
 						clickable: true,
 						renderBullet: function (index, className) {
-							return '<span class="' + className + '"></span>';
-						}
+							return '<span style="margin-left:20px" class="' + className + '"></span>';
+						  },
 					},
 					breakpoints: {
 						// when window width is >= 576px

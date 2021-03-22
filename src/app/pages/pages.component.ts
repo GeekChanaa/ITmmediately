@@ -35,7 +35,7 @@ export class PagesComponent implements OnInit {
       "/assets/js/vlt-plugins.min.js",
       "https://www.goat1000.com/jquery.tagcanvas.min.js",
       "/assets/js/vlt-helpers.js",
-      "/assets/js/vlt-controllers.min.js",
+      "/assets/js/vlt-controllers.js",
       "/assets/js/custom.js",
 
 

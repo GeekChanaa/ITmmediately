@@ -13,6 +13,7 @@ import { MainComponent } from './pages/Main/Main.component';
 import { AboutusComponent } from './pages/Aboutus/Aboutus.component';
 
 import {SwiperModule} from 'swiper/angular';
+import { ContactComponent } from './pages/Contact/Contact.component';
 
 @NgModule({
   declarations: [		
@@ -21,6 +22,7 @@ import {SwiperModule} from 'swiper/angular';
       PagesComponent,
       MainComponent,
       AboutusComponent,
+      ContactComponent
    ],
   imports: [
     BrowserModule,
