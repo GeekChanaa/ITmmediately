@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-root',
@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'itmmediately';
+
+  constructor( private elem: ElementRef,private renderer: Renderer2){}
+  
+  ngAfterViewInit() {
+  }
+  
 }

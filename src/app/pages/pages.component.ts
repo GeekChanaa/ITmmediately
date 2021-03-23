@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-pages',
@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class PagesComponent implements OnInit {
 
-  constructor() {
+  
+  constructor(private renderer: Renderer2) {
     this.InitCss();
     this.InitScripts();
+    setTimeout(() => {
+      let loader = this.renderer.selectRootElement('.animsition-loading-2');
+      this.renderer.setStyle(loader, 'display', 'none');
+    }, 1000);
    }
 
   ngOnInit() {
@@ -68,5 +73,7 @@ export class PagesComponent implements OnInit {
       document.getElementsByTagName('head')[0].appendChild(node);
     }
   }
+
+
 
 }

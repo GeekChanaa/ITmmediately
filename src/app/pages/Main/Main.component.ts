@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-Main',
@@ -33,5 +33,6 @@ export class MainComponent implements OnInit {
     divpic.style.backgroundSize = "cover";
     this.testimonial = this.testimonials[id];
   }
+
 
 }
