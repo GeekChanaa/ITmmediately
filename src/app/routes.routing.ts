@@ -5,9 +5,6 @@ import { ContactComponent } from './pages/Contact/Contact.component';
 import { MainComponent } from './pages/Main/Main.component';
 import { PagesComponent } from './pages/pages.component';
 
-const routes: Routes = [
-  {  },
-];
 
 export const appRoutes: Routes = [
   {

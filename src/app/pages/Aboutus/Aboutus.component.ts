@@ -17,6 +17,8 @@ export class AboutusComponent implements OnInit {
 
   constructor(private elem: ElementRef) { 
     this.testimonial = this.testimonials[0];
+    this.elem.nativeElement.ownerDocument.body.style.setProperty("overflow", "visible", "important");
+    document.getElementById("html").style.overflow = "visible";
   }
 
   ngOnInit() {
