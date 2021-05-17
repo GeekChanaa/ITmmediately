@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1995.542" height="1164.15" viewBox="0 0 1995.542 1164.15">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="123" y="844" width="1995.542" height="1164.15" fill="none"/>
+    </clipPath>
+    <filter id="Shape_1" x="-110.667" y="-844" width="2434.563" height="2418.155" filterUnits="userSpaceOnUse">
+      <feOffset dy="25" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(-123 -844)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g transform="matrix(1, 0, 0, 1, 123, 844)" filter="url(#Shape_1)">
+      <path id="Shape_1-2" data-name="Shape 1" d="M2345.744,118.116S2170.548-15.569,1854.113,14.63c-314.342,30-783.814,1171.98-1210.428,998.74C161.721,817.653,547.12,869.071,2.848,544.855" transform="matrix(-0.72, -0.69, 0.69, -0.72, 1589.96, 1538.7)" fill="none" stroke="#27358b" stroke-width="20"/>
+    </g>
+    <path id="Shape_1_copy" data-name="Shape 1 copy" d="M2343.069,117.023c-7.64-3.607-185.947-136.434-506.627-100.721C1520.081,51.534,1062.171,1188.4,633.83,1003.229,176.5,805.524,547.68,878.233,2.87,547.36" transform="matrix(-0.719, -0.695, 0.695, -0.719, 1701.078, 2387.616)" fill="none" stroke="#81338a" stroke-width="20"/>
+  </g>
+</svg>

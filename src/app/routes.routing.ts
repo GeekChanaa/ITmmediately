@@ -8,23 +8,10 @@ import { PagesComponent } from './pages/pages.component';
 
 export const appRoutes: Routes = [
   {
-    path :'',
+    path : '',
     component : PagesComponent,
-    children : [
-      {
-        path :'',
-        component : MainComponent,
-      },
-      {
-        path :'about-us',
-        component : AboutusComponent,
-      },
-      {
-        path :'contact-us',
-        component : ContactComponent,
-      },
-    ]
-  },
+    loadChildren : () => import('./pages/pages.module').then(m => m.PagesModule)
+  }
 
 ];
 

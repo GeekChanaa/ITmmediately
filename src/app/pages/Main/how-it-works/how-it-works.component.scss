@@ -1,0 +1,31 @@
+
+.step-icon-container{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 35px;
+}
+
+.bg--primary{
+    background-color: #433797;
+}
+.bg--secondary{
+    background-color: #856286;
+}
+.bg--red{
+    background-color: #c08878;
+}
+.bg--yellow{
+    background-color: #eaa36e;
+}
+
+.step{
+    padding:12px;
+    background-image: url('/assets/images/Dots-icon-border.svg');
+    background-size: cover;
+}
+
+
+.mt-100{
+    margin-top:5em
+}
