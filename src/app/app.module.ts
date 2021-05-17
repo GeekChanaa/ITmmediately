@@ -9,11 +9,14 @@ import { appRoutes } from './routes.routing';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatButtonModule} from '@angular/material/button';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner'
 import { MainComponent } from './pages/Main/Main.component';
 import { AboutusComponent } from './pages/Aboutus/Aboutus.component';
-import { ServicesComponent } from './pages/Services/Services.component';
-import { Services2Component } from './pages/Services2/Services2.component';
-import { ThreeComponent } from './pages/three/three.component';
+
+
+
+import {SwiperModule} from 'swiper/angular';
+import { ContactComponent } from './pages/Contact/Contact.component';
 
 @NgModule({
   declarations: [		
@@ -21,10 +24,8 @@ import { ThreeComponent } from './pages/three/three.component';
       NavbarComponent,
       PagesComponent,
       MainComponent,
-      ServicesComponent,
       AboutusComponent,
-      Services2Component,
-      ThreeComponent
+      ContactComponent
    ],
   imports: [
     BrowserModule,
@@ -32,6 +33,8 @@ import { ThreeComponent } from './pages/three/three.component';
     NgbModule,
     BrowserAnimationsModule,
     MatButtonModule,
+    MatProgressSpinnerModule,
+    SwiperModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

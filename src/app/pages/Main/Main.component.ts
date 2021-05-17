@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-Main',
@@ -16,11 +16,13 @@ export class MainComponent implements OnInit {
   ]
 
   constructor( private elem: ElementRef) { 
+    
     this.testimonial = this.testimonials[0];
     
   }
 
   ngOnInit() {
+    this.InitScripts();
   }
 
   
@@ -33,5 +35,19 @@ export class MainComponent implements OnInit {
     divpic.style.backgroundSize = "cover";
     this.testimonial = this.testimonials[id];
   }
+
+  InitScripts(){
+    const dynamicJs = [
+      "/assets/js/full-page.js",
+    ];
+    for(let i = 0; i< dynamicJs.length;i++){
+      const node = document.createElement('script');
+      node.src = dynamicJs[i];
+      node.type = 'text/javascript';
+      node.async = false;
+      document.getElementsByTagName('head')[0].appendChild(node);
+    }
+  }
+
 
 }

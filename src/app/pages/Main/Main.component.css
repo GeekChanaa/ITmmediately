@@ -1,6 +1,24 @@
 
 /******* the main section *****/
 
+.btn--primary{
+    background: #81338a;
+    color: white;
+    font-size: 1.1em;
+    padding: 5px 20px 5px 20px;
+}
+
+.btn--outline-primary{
+    border : 3px solid #81338a;
+    color: #81338a;
+    font-size: 1.1em;
+    padding: 5px 20px 5px 20px;
+}
+
+.ml-sm{
+    margin-left : 10px;
+}
+
 /* TypeWriting animation */
 /* Animation */
 
@@ -13,7 +31,7 @@
 }
 
 .main-title{
-    font-size: 5em;
+    font-size: 7em;
     font-weight: 400;
     color: #3A393A;
 }
@@ -64,6 +82,7 @@
 .aboutus-button{
     font-size:1.2em;
     padding: 10px 30px 10px 30px;
+    background-color: #27358b;
 }
 
 .aboutus{
@@ -94,6 +113,9 @@
     margin-top:5em
 }
 
+.swiper-pagination .swiper-pagination-bullet{
+    margin:auto
+}
 
 /******* services 2 *******/
 .vertical-slider{
@@ -186,4 +208,13 @@
     /* height: 130px;
     width: 130px; */
     cursor: pointer;
+}
+
+/* text color */
+.text-main{
+    color:#753389;
+}
+
+.text-main2{
+    color:#27358b;
 }
