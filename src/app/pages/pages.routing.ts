@@ -8,6 +8,10 @@ export const appRoutes: Routes = [
   {
     path :'',
     component : MainComponent,
+  },
+  {
+    path :'about-us',
+    component : MainComponent,
   }
 ];
 

@@ -19,13 +19,22 @@
     background-color: #eaa36e;
 }
 
-.step{
-    padding:12px;
-    background-image: url('/assets/images/Dots-icon-border.svg');
-    background-size: cover;
-}
 
 
 .mt-100{
     margin-top:5em
+}
+
+.vertical-slider{
+    height: 500px;
+    width: 500px;
+    box-shadow: 22px 44px 59px #15101059;
+    border-radius: 50%;
+}
+
+.dotted-border{
+    border-radius: 50%;
+    padding: 10px;
+    border: dotted 3px grey;
+    width: min-content;
 }

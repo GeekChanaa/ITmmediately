@@ -1,9 +1,38 @@
 
+
+/* RESPONSIVE DESIGN */
+.line{
+    border : 2px solid black;
+    width: 150px;
+    height: 1px;
+    position: relative;
+    top:6px;
+}
+
 .btn--primary{
     background: #81338a;
     color: white;
     font-size: 1.1em;
     padding: 5px 20px 5px 20px;
+}
+
+.section-img-1{
+    position: absolute; 
+    left:0;
+    top:-5px
+}
+
+.section-img-2{
+    position: absolute; 
+    top:-155px; 
+    right: -155px ;
+    left: auto; 
+    height: 65%; 
+    width: auto;
+}
+
+.mobile-img-1{
+    display: none;
 }
 
 .btn--outline-primary{
@@ -13,6 +42,114 @@
     padding: 5px 20px 5px 20px;
 }
 
+@media only screen and (max-width: 1199px)
+{
+    .line{
+        width: 60px;
+        height: 1px;
+        top:6px;
+    }
+
+    h1{
+        font-size: 5em;
+    }
+
+    .btn--primary{
+        font-size: 1.1em;
+    }
+    
+    .btn--outline-primary{
+        font-size: 1.1em;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .line{
+        width: 80px;
+        height: 1px;
+        top:6px;
+    }
+
+    h1{
+        font-size: 4em;
+    }
+
+    .btn--primary{
+        font-size: 1em;
+    }
+    
+    .btn--outline-primary{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .line{
+        width: 100px;
+        height: 1px;
+        top:6px;
+    }
+
+    h1{
+        font-size: 3em;
+    }
+
+    .btn--primary{
+        font-size: 0.9em;
+    }
+    
+    .btn--outline-primary{
+        font-size: 0.9em;
+    }
+}
+
+@media only screen and (max-width: 575px)
+{
+    .line{
+        width: 120px;
+        height: 1px;
+        top:6px;
+    }
+    h1{
+        font-size: 2em;
+    }
+
+    .btn--primary{
+        font-size: 0.8em;
+    }
+    
+    .btn--outline-primary{
+        font-size: 0.8em;
+    }
+
+    .section-img-1{
+        display: none;
+    }
+    
+    .section-img-2{
+        display: none;
+    }
+
+    .mobile-img-1{
+        position: absolute;
+        display: inline;
+        object-fit: cover;
+        height: 100%;
+    }
+
+    .vlt-section__content{
+        align-items :flex-end ;
+    }
+    
+}
+
+
+
+
+
+
 .ml-sm{
     margin-left : 10px;
 }
@@ -21,3 +158,9 @@
 .mt-100{
     margin-top:5em
 }
+
+
+
+
+
+

@@ -19,6 +19,7 @@ import { HowItWorksComponent } from './Main/how-it-works/how-it-works.component'
 import { ServicesComponent } from './Main/services/services.component';
 import { TestimonialsComponent } from './Main/testimonials/testimonials.component';
 import { MainComponent } from './Main/Main.component';
+import { AboutComponent } from './Main/about/about.component';
 
 @NgModule({
   declarations: [	
@@ -28,7 +29,8 @@ import { MainComponent } from './Main/Main.component';
       HowItWorksComponent,
       ServicesComponent,
       TestimonialsComponent,
-      MainComponent
+      MainComponent,
+      AboutComponent
    ],
   imports: [
     CommonModule,

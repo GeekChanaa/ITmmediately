@@ -1,9 +1,9 @@
 <div class="vlt-section__vertical-align">
   <div class="vlt-section__content">
     <!--Projects-->
-    <div class="vlt-section__projects-background"><img class="is-active" src="assets/img/project-01.jpg"
-        alt="" loading="lazy"><img src="assets/img/project-02.jpg" alt="" loading="lazy"><img
-        src="assets/img/project-03.jpg" alt="" loading="lazy"></div>
+    <div class="vlt-section__projects-background">
+      <img class="is-active" src="/assets/images/line-3.svg" alt="" loading="lazy">
+    </div>
     <div class="container-fluid">
       <div class="vlt-gap-50"></div>
       <!--Animated Block-->
@@ -36,8 +36,10 @@
 
         <!--Testimonials Slider-->
         <div class="col-xl-6">
-          <img style="position: absolute; width: 55%; bottom : 45px ; left : 216px;" src="/assets/images/Oval.svg" alt="">
-          <img style="position: absolute; width: 35%; bottom : 180px ; left : 150px" src="/assets/images/Dots.svg" alt="">
+          <img style="position: absolute; width: 55%; bottom : 45px ; left : 216px;" src="/assets/images/Oval.svg"
+            alt="">
+          <img style="position: absolute; width: 35%; bottom : 180px ; left : 150px" src="/assets/images/Dots.svg"
+            alt="">
           <div class="col-xl-7 offset-xl-3 testimonial-div">
             <div class="text-center">
               <h6>{{testimonial.name}}</h6>
@@ -50,11 +52,10 @@
             <div>
               <p>"{{testimonial.content}}"</p>
             </div>
-            <div
-              class="col-xl-6 offset-xl-3 row text-center m-auto slider-div-controllers slider-testimonials-dots">
+            <div class="col-xl-6 offset-xl-3 row text-center m-auto slider-div-controllers slider-testimonials-dots">
               <!-- <svg *ngFor="let testi of testimonials" (click)="changeContent(testi.id)" class="testimonial-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> <path d="M256,0C115.39,0,0,115.39,0,256s115.39,256,256,256s256-115.39,256-256S396.61,0,256,0z"/> </svg> -->
-              <div *ngFor="let testi of testimonials" (click)="changeContent(testi.id)"
-                class="testimonial-controls"></div>
+              <div *ngFor="let testi of testimonials" (click)="changeContent(testi.id)" class="testimonial-controls">
+              </div>
             </div>
           </div>
         </div>
