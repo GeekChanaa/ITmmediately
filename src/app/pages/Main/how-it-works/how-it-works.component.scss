@@ -1,25 +1,43 @@
 
+
+@media only screen and (max-width: 1199px)
+{
+    
+}
+
+@media only screen and (max-width: 991px)
+{
+    
+}
+
+@media only screen and (max-width: 767px)
+{
+    
+}
+
+@media only screen and (max-width: 575px)
+{
+    .mobile-hide{
+        display: none;
+    }
+
+    h3{
+        font-size: 2.375em;
+    }
+    
+    .section-img-1{
+        display: none;
+    }
+}
+
+
+
 .step-icon-container{
     border-radius: 50%;
     width: 100px;
     height: 100px;
     padding: 35px;
 }
-
-.bg--primary{
-    background-color: #433797;
-}
-.bg--secondary{
-    background-color: #856286;
-}
-.bg--red{
-    background-color: #c08878;
-}
-.bg--yellow{
-    background-color: #eaa36e;
-}
-
-
 
 .mt-100{
     margin-top:5em
@@ -38,3 +56,19 @@
     border: dotted 3px grey;
     width: min-content;
 }
+
+
+
+.bg--primary{
+    background-color: #433797;
+}
+.bg--secondary{
+    background-color: #856286;
+}
+.bg--red{
+    background-color: #c08878;
+}
+.bg--yellow{
+    background-color: #eaa36e;
+}
+

@@ -8,6 +8,82 @@
     font-size:2em
 }
 
+
+
+@media only screen and (max-width: 1199px)
+{
+    .services-title{
+        font-size:5em
+    }
+    
+    .services-sub-title{
+        font-size:2em
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .services-title{
+        font-size:3em
+    }
+    
+    .services-sub-title{
+        font-size:1.5em
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .services-title{
+        font-size:5em
+    }
+    
+    .services-sub-title{
+        font-size:2em
+    }
+}
+
+@media only screen and (max-width: 575px)
+{
+    .services-title{
+        font-size:3em;
+        padding: 20px;
+    }
+    
+    .services-sub-title{
+        font-size: 1em;
+        padding: 20px;
+    }
+
+    .section-img-1{
+        display: none;
+    }
+
+    canvas{
+        height: 100%;
+        width: 100%;
+    }
+
+    .mt-40-sm{
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .swiper-pagination .swiper-pagination-bullet{
     margin:auto
 }

@@ -1,10 +1,12 @@
-.text-lg-black{
-    font-size: 9em;
-    font-weight: bold;
-}
+
 
 .text-lg{
     font-size: 2.475em;
+}
+
+.text-sm-black{
+    font-size: 9em;
+    font-weight: bold;
 }
 
 .get-started-button{
@@ -19,4 +21,61 @@
 .content{
     color: black;
     font-size: 1.2em;
+}
+
+.section-img-1{
+    position: absolute; 
+    top:0; 
+    left:0px ; 
+    z-index: -2;
+}
+
+.section-img-2{
+    position: absolute; 
+    top:0; 
+    right: 100px; 
+}
+
+
+
+@media only screen and (max-width: 1199px)
+{
+    
+}
+
+@media only screen and (max-width: 991px)
+{
+    
+}
+
+@media only screen and (max-width: 767px)
+{
+    
+}
+
+@media only screen and (max-width: 575px)
+{
+    .text-sm-black{
+        font-size: 5em;
+        font-weight: bold;
+    }
+    .text-sm{
+        font-size: 1.375em;
+    }
+    .section-img-1{
+        display: none;
+    }
+    .section-img-2{
+        position: initial !important;
+    }
+    .content{
+        color: black;
+        font-size: 0.9em;
+    }
+    .get-started-button{
+        padding : 5px 30px 5px 30px;
+        font-size: 0.9em;
+        border-radius: 5px;
+        margin-top: 20px;
+    }
 }

@@ -23,7 +23,6 @@ import { CommonModule } from '@angular/common';
   declarations: [		
       AppComponent,
       NavbarComponent,
-      AboutusComponent,
       ContactComponent,
    ],
   imports: [

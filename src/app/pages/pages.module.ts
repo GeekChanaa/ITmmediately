@@ -20,6 +20,8 @@ import { ServicesComponent } from './Main/services/services.component';
 import { TestimonialsComponent } from './Main/testimonials/testimonials.component';
 import { MainComponent } from './Main/Main.component';
 import { AboutComponent } from './Main/about/about.component';
+import { AboutusComponent } from './Aboutus/Aboutus.component';
+import { TestiComponent } from './Aboutus/testi/testi.component';
 
 @NgModule({
   declarations: [	
@@ -30,7 +32,9 @@ import { AboutComponent } from './Main/about/about.component';
       ServicesComponent,
       TestimonialsComponent,
       MainComponent,
-      AboutComponent
+      AboutComponent,
+      AboutusComponent,
+      TestiComponent
    ],
   imports: [
     CommonModule,

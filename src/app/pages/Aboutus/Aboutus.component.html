@@ -1,15 +1,9 @@
 <main class="vlt-main">
-  <section>
-    <div class="vlt-post-hero-title jarallax"><img class="jarallax-img" src="assets/images/bg-aboutus.svg" alt="" loading="lazy">
-      <div class="container">
-        <div class="row">
-          <div class="col-xl-8 offset-lg-2 text-center">
-            <!--Animated Block-->
-            <div class="vlt-animated-block" data-animation-name="fadeInUpSm" style="animation-delay:0s; animation-duration:700ms;"><span class="vlt-post-date"></span>
-              <h1 class="vlt-post-title">ABOUT US</h1>
-            </div>
-          </div>
-        </div>
+  <div class="vlt-gap-100"></div>
+  <section class="bg-header">
+    <div class="container">
+      <div class="text-center header">
+        <h1 class="title">About us<span class="text--primary">.</span> </h1>
       </div>
     </div>
   </section>
@@ -83,69 +77,11 @@
     <div class="vlt-gap-140"></div>
   </section>
   <section>
-
-          <div class="container-fluid">
-    <div class="vlt-gap-140"></div>
-    <div class="vlt-gap-140"></div>
-    <div class="vlt-gap-50"></div>
-            <!--Animated Block-->
-            <div class="vlt-animated-block row" data-animation-name="fadeInUpSm" style="animation-delay:.1s; animation-duration:700ms;">
-
-              <div class="col-xl-5 offset-xl-1">
-                <h3 class="testimonials-sub-title">TESTIMONIALS</h3>
-                <h1 class="testimonials-title">What Our Customers Say</h1>
-                <div class="vlt-gap-40"></div>
-                <div class="row col-xl-12">
-                  <div class="testimonial-pdp" (click)="changeContent(1)">
-                    
-                  </div>
-                  <div class="testimonial-pdp t1" (click)="changeContent(2)" style="left: -35px;">
-                    
-                  </div>
-                  <div class="testimonial-pdp t" (click)="changeContent(3)" style="left:-70px">
-                    
-                  </div>
-                  <div class="testimonial-pdp t" style="left:-105px">
-                    
-                  </div>
-                </div>
-                <div class="vlt-gap-40"></div>
-                <button mat-flat-button class="testimonial-button" color="primary">Contact us</button>
-              </div>
-
-              
-                
-              <!--Testimonials Slider-->
-              <div class="col-xl-5 offset-xl-1">
-              <div class="vlt-gap-140"></div>
-              <div class="vlt-gap-140"></div>
-                
-                <div class="col-xl-9 offset-xl-1 testimonial-div">
-                  <div class="text-center">
-                    <h6>{{testimonial.name}}</h6>
-                    <p>{{testimonial.desc}}</p>
-                    <div class="testimonial-pic">
-                      
-                    </div>
-                  </div>
-                  <div class="vlt-gap-50"></div>
-                  <div>
-                    <p>"{{testimonial.content}}"</p>
-                  </div>
-                  <div class="col-xl-6 offset-xl-3 row text-center m-auto slider-div-controllers slider-testimonials-dots" >
-                    <!-- <svg *ngFor="let testi of testimonials" (click)="changeContent(testi.id)" class="testimonial-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> <path d="M256,0C115.39,0,0,115.39,0,256s115.39,256,256,256s256-115.39,256-256S396.61,0,256,0z"/> </svg> -->
-                    <div *ngFor="let testi of testimonials" (click)="changeContent(testi.id)" class="testimonial-controls"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="vlt-gap-140"></div>
-              
-            </div>
-          </div>
+    <div class="vlt-section" data-anchor="testimonials">
+      <app-testi style="height: 100%;"></app-testi>
+    </div>
   </section>
   <section>
-    <div class="vlt-gap-140"></div>
-    <div class="vlt-gap-140"></div>
     <div class="container-fluid">
       <div class="col-lg-12 text-center">
         <!--Animated Block-->
