@@ -1,6 +1,6 @@
 
 .services-title{
-    font-size:5em
+    font-size:3.775em
 }
 
 .services-sub-title{
@@ -8,12 +8,31 @@
     font-size:2em
 }
 
+canvas{
+    height: 500px !important;
+    width: 500px !important;
+}
 
+@media only screen and (max-width: 1499px)
+{
+    .services-title{
+        font-size:3.275em !important;
+    }
+    
+    .services-sub-title{
+        font-size:2em
+    }
+
+    canvas{
+        height: 400px !important;
+        width: 400px !important;
+    }
+}
 
 @media only screen and (max-width: 1199px)
 {
     .services-title{
-        font-size:5em
+        font-size:3.275em !important;
     }
     
     .services-sub-title{
@@ -66,6 +85,10 @@
 
     .mt-40-sm{
         margin-top: 40px;
+    }
+
+    .sm-hide{
+        display: none;
     }
 }
 

@@ -6,9 +6,16 @@
 }
 
 .title{
-    font-size: 3.775em;
+    font-size: 2.775em;
     font-weight: bold;
     max-width: 90%;
+}
+
+.section-img-3{
+    right: -200px;
+    bottom: -200px;
+    top: auto  !important;
+    height: 50%;
 }
 
 .learn-more-button{
@@ -65,6 +72,9 @@
 
 @media only screen and (max-width: 991px)
 {
+    .section-img-3{
+        display: none;
+    }
 
 }
 
@@ -76,6 +86,8 @@
         left:-380px;
         right: auto;
     }
+
+    
 
     .title{
         font-size: 1.3em;
@@ -100,9 +112,9 @@
     }
 
     .section-img-1{
-        bottom:-130px;
+        bottom:-50px;
         top: auto !important;
-        width: 90% !important;
+        width: 75% !important;
         height: auto !important;
         right:-50px;
         left: auto;
@@ -121,4 +133,16 @@
     .vlt-section__content{
         align-items: flex-start;
     }
+
+    
+
+    .vlt-section__content{
+        padding: 7.5em .5em !important;
+    }
+
+    .vlt-section__ken-burn-background{
+        height: 120% !important;
+    }
+
+
 }

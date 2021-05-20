@@ -36,6 +36,13 @@
     right: 100px; 
 }
 
+.container-fluid{
+    overflow: hidden;
+}
+
+.mobile-img-2{
+    display: none;
+}
 
 
 @media only screen and (max-width: 1199px)
@@ -66,11 +73,12 @@
         display: none;
     }
     .section-img-2{
-        position: initial !important;
+        display: none;
     }
     .content{
         color: black;
         font-size: 0.9em;
+        margin-bottom: 0.5rem;
     }
     .get-started-button{
         padding : 5px 30px 5px 30px;
@@ -78,4 +86,35 @@
         border-radius: 5px;
         margin-top: 20px;
     }
+    .sm-hide{
+        display: none;
+    }
+    .vlt-gap-30--sm{
+        margin-top: 1rem;
+    }
+
+     .mobile-img-2{
+         width: 110%;
+         max-width: 110% !important;
+         height: auto;
+         position: relative;
+         left: -5%;
+         display: block;
+     }
+
+    // .mobile-img-2{
+    //     display: block;
+    //     height: 42vh;
+    //     width: 110% !important;
+    //     object-fit: cover;
+    //     object-position: top;
+    //     max-width: 110% !important;
+    //     position: relative;
+    //     left: -5%;
+    // }
+
+    .container-fluid{
+        overflow-x: hidden;
+    }
+
 }
