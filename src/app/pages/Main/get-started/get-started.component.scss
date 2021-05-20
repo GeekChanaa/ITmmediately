@@ -27,6 +27,9 @@
     position: absolute; 
     top:0; 
     left:0px ; 
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
     z-index: -2;
 }
 
@@ -34,6 +37,7 @@
     position: absolute; 
     top:0; 
     right: 100px; 
+    max-width: 46% !important;
 }
 
 .container-fluid{
