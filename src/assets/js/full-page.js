@@ -98,7 +98,7 @@ try {
       zoomMin : 1.0,
       reverse: true,
       depth: 0.8,
-      maxSpeed: 0.05
+      maxSpeed: 0.05,
     });
   } catch(e) {
     // something went wrong, hide the canvas container

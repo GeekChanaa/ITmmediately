@@ -1,34 +1,11 @@
 
 /******* the main section *****/
 
-.btn--primary{
-    background: #81338a;
-    color: white;
-    font-size: 1.1em;
-    padding: 5px 20px 5px 20px;
-}
-
-.btn--outline-primary{
-    border : 3px solid #81338a;
-    color: #81338a;
-    font-size: 1.1em;
-    padding: 5px 20px 5px 20px;
-}
-
-.ml-sm{
-    margin-left : 10px;
-}
 
 /* TypeWriting animation */
 /* Animation */
 
-.line{
-    border : 2px solid black;
-    width: 150px;
-    height: 1px;
-    position: relative;
-    top:6px;
-}
+
 
 .main-title{
     font-size: 7em;
@@ -90,125 +67,10 @@
     color: #27358B;
 }
 
-.services-title{
-    font-size:5em
-}
-
-.services-sub-title{
-    color:#B73382;
-    font-size:2em
-}
-
-
-.vlt-testimonial__text p{
-    max-width: 87%;
-}
-
-.swiper-container{
-    margin-left : 20px;
-    max-width: 90%
-}
-
-.mt-100{
-    margin-top:5em
-}
-
-.swiper-pagination .swiper-pagination-bullet{
-    margin:auto
-}
-
-/******* services 2 *******/
-.vertical-slider{
-    height: 500px;
-    width: 500px;
-    box-shadow: 22px 44px 59px #15101059;
-    border-radius: 50%;
-}
 
 
 /******** Testimonial Section ********/
 
-.testimonials-title{
-    font-size: 5em;
-}
-
-.testimonials-sub-title{
-    font-size: 2em;
-    color : #27358B;
-}
-
-.testimonial-div{
-    background: #FFFFFF 0% 0% no-repeat padding-box;
-    box-shadow: 10px 20px 40px #00000018;
-    border-radius: 32px;
-    padding: 50px 50px 50px 50px;
-}
-
-.testimonial-pic{
-    background-image: url('/assets/images/customers/1.jpg');
-    background-size: cover;
-    box-shadow: 5px 10px 30px #00000018;
-    border-radius: 20px;
-    width: 140px;
-    height: 136px;
-    position: absolute;
-    bottom :210px;
-    left: 9px;
-    border:9px solid white;
-}
-
-.testimonial-controls{
-    height: 8px;
-    width: 8px;
-    border-radius: 50%;
-    background : black;
-    margin: auto;
-    cursor: pointer;
-    transition: all .5s;
-}
-
-.testimonial-controls:hover{
-    height: 11px;
-    width: 11px;
-    border: 2px solid black;
-    background: white;
-}
-
-
-.testimonial-button{
-    font-size:1em;
-    padding: 10px 50px 10px 50px;
-}
-
-.testimonial-pdp{
-    height: 100px;
-    width: 100px;
-    border-radius: 50%;
-    background: black;
-    border: 10px solid white;
-    box-shadow: 5px 10px 30px #00000018;
-    position: relative;
-    bottom:0;
-    transition:all 1s ease;
-}
-
-.slider-testimonials-dots svg{
-    margin: auto;
-}
-
-.t1{
-    -webkit-transition:all .5s ease;
-       -moz-transition:all .5s ease;
-        -ms-transition:all .5s ease;
-         -o-transition:all .5s ease;
-            transition:all .5s ease;
-}
-.testimonial-pdp:hover{
-    bottom : 30px;
-    /* height: 130px;
-    width: 130px; */
-    cursor: pointer;
-}
 
 /* text color */
 .text-main{

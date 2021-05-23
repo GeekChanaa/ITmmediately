@@ -1,25 +1,133 @@
-.title{
-    font-size: 5em;
-    font-weight: bolder;
-}
-.bg-header{
-    background: #f6f6ff;
+
+.services-title{
+    font-size:3.775em
 }
 
-.header{
-    padding:5rem
+.services-sub-title{
+    color:#B73382;
+    font-size:2em
 }
 
-.vlt-post-hero-title{
-    padding: 20rem 0 23.375rem;
+canvas{
+    height: 500px !important;
+    width: 500px !important;
 }
 
-.vlt-post-title{
-    font-size: 7rem;
-    color: black;
-    font-weight: bold;
-    letter-spacing: -12px;
+@media only screen and (max-width: 1499px)
+{
+    .services-title{
+        font-size:3.275em !important;
+    }
+    
+    .services-sub-title{
+        font-size:2em
+    }
+
+    canvas{
+        height: 400px !important;
+        width: 400px !important;
+    }
 }
+
+@media only screen and (max-width: 1199px)
+{
+    .services-title{
+        font-size:3.275em !important;
+    }
+    
+    .services-sub-title{
+        font-size:2em
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .services-title{
+        font-size:3em
+    }
+    
+    .services-sub-title{
+        font-size:1.5em
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .services-title{
+        font-size:5em
+    }
+    
+    .services-sub-title{
+        font-size:2em
+    }
+}
+
+@media only screen and (max-width: 575px)
+{
+    .services-title{
+        font-size:3em;
+        padding: 20px;
+    }
+    
+    .services-sub-title{
+        font-size: 1em;
+        padding: 20px;
+    }
+
+    .section-img-1{
+        display: none;
+    }
+
+    canvas{
+        height: 100%;
+        width: 100%;
+    }
+
+    .mt-40-sm{
+        margin-top: 40px;
+    }
+
+    .sm-hide{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.swiper-pagination .swiper-pagination-bullet{
+    margin:auto
+}
+
+
+
+
+.vlt-testimonial__text p{
+    max-width: 87%;
+}
+
+.swiper-container{
+    margin-left : 20px;
+    max-width: 90%
+}
+
+
+.mt-100{
+    margin-top:5em
+}
+
 
 
 .testimonials-title{
@@ -86,6 +194,7 @@
     transition:all 1s ease;
 }
 
+
 .slider-testimonials-dots svg{
     margin: auto;
 }
@@ -103,16 +212,3 @@
     width: 130px; */
     cursor: pointer;
 }
-
-/* Slider */
-
-.company-logo{
-    height: 200px;
-    box-shadow: 0px 19px 66px #6F6D7121;
-    width: 200px;
-    margin-top: 10px;
-    margin-left:auto;
-    margin-right:auto;
-    background-size: cover;
-}
-

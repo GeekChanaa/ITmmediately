@@ -1,0 +1,148 @@
+.content{
+    max-width: 90%;
+    color: black;
+    text-align: justify;
+    font-size: 1.1em;
+}
+
+.title{
+    font-size: 2.775em;
+    font-weight: bold;
+    max-width: 90%;
+}
+
+.section-img-3{
+    right: -200px;
+    bottom: -200px;
+    top: auto  !important;
+    height: 50%;
+}
+
+.learn-more-button{
+    background-color: #2c358b;
+    padding: 10px 40px 10px 40px;
+    color: white;
+}
+
+.section-img-1{
+    position: absolute; 
+    height:70% ; 
+    width: auto;
+}
+
+.section-img-2{
+    position: absolute;
+}
+
+.mobile-img-1{
+    display: none;
+}
+
+@media only screen and (max-width: 1500px)
+{
+    .section-img-1{
+        height:70% ; 
+        width: auto;
+        left:-150px;
+        right: auto;
+    }
+
+    .title{
+        font-size: 2.775em;
+    }
+
+    .section-img-2{
+        height: 100%;
+    }
+}
+
+
+@media only screen and (max-width: 1199px)
+{
+    .section-img-1{
+        height:70% ; 
+        width: auto;
+        left:-380px;
+        right: auto;
+    }
+    .title{
+        font-size: 2.375em;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .section-img-3{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 767px)
+{
+    .section-img-1{
+        height:60% ; 
+        width: auto;
+        left:-380px;
+        right: auto;
+    }
+
+    
+
+    .title{
+        font-size: 1.3em;
+    }
+    .content{
+        font-size: 0.9em;
+    }
+
+    .vlt-section__content{
+        padding: 7.5em 3.5em !important;
+    }
+}   
+
+@media only screen and (max-width: 575px)
+{
+    .title{
+        font-size: 1.2em;
+    }
+
+    .content{
+        font-size: 0.8em;
+    }
+
+    .section-img-1{
+        bottom:-50px;
+        top: auto !important;
+        width: 75% !important;
+        height: auto !important;
+        right:-50px;
+        left: auto;
+    }
+
+    .section-img-2{
+        display: none;
+    }
+
+    .mobile-img-1{
+        bottom: 0 !important;
+        top:auto !important;
+        display: inline;
+    }
+
+    .vlt-section__content{
+        align-items: flex-start;
+    }
+
+    
+
+    .vlt-section__content{
+        padding: 7.5em .5em !important;
+    }
+
+    .vlt-section__ken-burn-background{
+        height: 120% !important;
+    }
+
+
+}

@@ -1,0 +1,68 @@
+<div class="vlt-section__vertical-align">
+  <div class="vlt-section__content">
+    <!--Projects-->
+    <div class="vlt-section__projects-background">
+      <img class="section-img-1 is-active" src="/assets/images/line-3.svg" alt="" loading="lazy">
+    </div>
+    <div class="container-fluid">
+      <div class="vlt-gap-50"></div>
+      <!--Animated Block-->
+      <div class="vlt-animated-block row" data-animation-name="fadeInUpSm"
+        style="animation-delay:.1s; animation-duration:700ms;">
+
+        <div class="col-xl-5 mobile-center">
+          <h3 class="testimonials-sub-title">TESTIMONIALS</h3>
+          <h1 class="testimonials-title">What Our Customers Say</h1>
+          <div class="vlt-gap-40"></div>
+          <div class="row col-xl-12 justify-center-sm">
+            <div class="testimonial-pdp" (click)="changeContent(1)">
+
+            </div>
+            <div class="testimonial-pdp t1" (click)="changeContent(2)" style="left: -35px;">
+
+            </div>
+            <div class="testimonial-pdp t" (click)="changeContent(3)" style="left:-70px">
+
+            </div>
+            <div class="testimonial-pdp t" style="left:-105px">
+
+            </div>
+          </div>
+          <div class="vlt-gap-40"></div>
+          <button mat-flat-button class="testimonial-button" color="primary">Contact us</button>
+        </div>
+
+
+
+        <!--Testimonials Slider-->
+        <div class="col-xl-6 testimonials">
+          <img class="oval-img-1" src="/assets/images/Oval.svg"
+            alt="">
+          <img style="position: absolute; width: 35%; bottom : 180px ; left : 150px" src="/assets/images/Dots.svg"
+            alt="">
+            <div class="vlt-gap-50--sm"></div>
+          <div class="col-lg-10 offset-lg-1  testimonial-div">
+            <div class="text-center">
+              <h6>{{testimonial.name}}</h6>
+              <p>{{testimonial.desc}}</p>
+              <div class="testimonial-pic mobile-hide">
+
+              </div>
+            </div>
+            <div class="vlt-gap-50 mobile-hide"></div>
+            <div class="vlt-gap-30--sm"></div>
+            <div class="testimonial-content">
+              <p>"{{testimonial.content}}"</p>
+            </div>
+            <div class="col-xl-6 offset-xl-3 row text-center m-auto slider-div-controllers slider-testimonials-dots">
+              <!-- <svg *ngFor="let testi of testimonials" (click)="changeContent(testi.id)" class="testimonial-svg" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"> <path d="M256,0C115.39,0,0,115.39,0,256s115.39,256,256,256s256-115.39,256-256S396.61,0,256,0z"/> </svg> -->
+              <div *ngFor="let testi of testimonials" (click)="changeContent(testi.id)" class="testimonial-controls">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="vlt-gap-150"></div>
+
+      </div>
+    </div>
+  </div>

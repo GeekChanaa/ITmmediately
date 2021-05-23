@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="430.427" height="454.069" viewBox="0 0 430.427 454.069">
+  <defs>
+    <clipPath id="clip-path">
+      <rect x="154" y="394" width="430.427" height="454.069" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Scroll_Group_1" data-name="Scroll Group 1" transform="translate(-154 -394)" clip-path="url(#clip-path)" style="isolation: isolate">
+    <g id="big_tex_shape_Image" data-name="big tex , shape &amp; Image" transform="translate(212.312 585.29) rotate(-54)">
+      <path id="Shape_1" data-name="Shape 1" d="M674.238,264.377c-22.16,18.858-22.153,95.089-44.98,146.15-10.122,22.641-25.779,36.573-52.23,30.368C490.87,420.682,508.3,658.716,353.259,522.853,252.834,434.85,122.515,623.984,77.794,388.3,57.407,280.853-233.894,452.29-233.894,452.29" transform="translate(-12.213 -334.142)" fill="none" stroke="#27358b" stroke-width="9"/>
+      <path id="Shape_1_copy" data-name="Shape 1 copy" d="M-249.273,443.914c29.808-7.35,297.235-170.856,319.018-63.685,49.1,241.562,144.592,43.15,264.274,130.189C526.773,650.6,475.3,428.1,562.365,434.833c86.764,6.706,60.86-154.746,94.106-180.857.145-.115.3-.475.61-.688" transform="translate(0 -330.122)" fill="none" stroke="#81338a" stroke-width="9"/>
+    </g>
+  </g>
+</svg>
