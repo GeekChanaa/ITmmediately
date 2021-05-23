@@ -22,6 +22,7 @@ import { MainComponent } from './Main/Main.component';
 import { AboutComponent } from './Main/about/about.component';
 import { AboutusComponent } from './Aboutus/Aboutus.component';
 import { TestiComponent } from './Aboutus/testi/testi.component';
+import { ServicesComponent as ServComponent} from './Services/Services.component';
 
 @NgModule({
   declarations: [	
@@ -34,7 +35,8 @@ import { TestiComponent } from './Aboutus/testi/testi.component';
       MainComponent,
       AboutComponent,
       AboutusComponent,
-      TestiComponent
+      TestiComponent,
+      ServComponent
    ],
   imports: [
     CommonModule,
@@ -43,6 +45,7 @@ import { TestiComponent } from './Aboutus/testi/testi.component';
     MatButtonModule,
     MatProgressSpinnerModule,
     SwiperModule,
+    MatButtonModule
   ],
   providers: [],
   bootstrap: []
