@@ -9,13 +9,35 @@ h1{
     margin-left: 10%;   
 }
 
-// Stay in touch section
-.stay-in-touch-content{
-    max-width: 60%;
-    margin-left: 20%;
-    font-size: 1em;
+.header-h4{
+    font-size: 1.5em;
+    font-weight: bold;
 }
 
+.items-center{
+    align-items: center;
+}
+
+// Languages
+.languages-content{
+    max-width: 70%;
+    margin-left: 20%;
+    font-size: 1.2em;
+    color: black;
+    font-weight: bold;
+    text-align: left;
+}
+
+.languages{
+    overflow-x: hidden;
+}
+
+.language{
+    padding: 1.5em;
+    margin : 5px;
+    box-shadow: 0 0 8px -2px #b3b3b3;
+    border-radius: 19px;
+}
 
 // No strings Attached Section
 .contracts-title{
