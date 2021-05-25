@@ -1,3 +1,29 @@
+// Global styles
+.d-flex{
+    display: flex !important;
+}
+
+.mb-2{
+    margin-bottom: 8px !important;
+}
+
+.flex-items-center{
+    align-items: center !important;
+}
+
+.align-content-center {
+    align-content: center;
+}
+
+.justify-content-center{
+    justify-content: center;
+}
+
+
+.w-100{
+    width:100%
+}
+
 h1{
     font-weight: bold;
     font-size: 4em;
@@ -28,17 +54,79 @@ h1{
     text-align: left;
 }
 
+.ml-n-1{
+    margin-left: -8em;
+}
+
+.ml-n-2{
+    
+    margin-left: -16em;
+}
+
+.ml-n-3{
+    
+    margin-left: -24em;
+}
+
+.ml-n-4{
+    
+    margin-left: -32em;
+}
+
+.mr-n-0{
+    margin-right : -4em;
+}
+
+.mr-n-1{
+     margin-right: -11em;
+}
+
+.mr-n-2{
+     
+    margin-right: -19em;
+}
+
+.mr-n-3{
+     
+    margin-right: -27em;
+}
+
+.mr-n-4{
+     
+    margin-right: -35em;
+}
+
+.justify-content-right{
+    justify-content: right;
+}
+
 .languages{
     overflow-x: hidden;
+    max-width: 101%;
+    width:101%;
 }
 
 .language{
-    padding: 1.5em;
+    padding: 0.4em;
     margin : 5px;
     box-shadow: 0 0 8px -2px #b3b3b3;
     border-radius: 19px;
 }
 
+.language-title{
+    font-size: 1.2em; 
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.language-img{
+    height: 70px;
+    width: 70px;
+}
+
+.languages-row{
+    margin-left: -2rem;
+}
 // No strings Attached Section
 .contracts-title{
     font-size: 2em;

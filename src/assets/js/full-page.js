@@ -104,3 +104,5 @@ try {
     // something went wrong, hide the canvas container
     document.getElementById('myCanvasContainer').style.display = 'none';
   }
+
+  
