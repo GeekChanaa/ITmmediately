@@ -4,6 +4,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import {MatExpansionModule} from '@angular/material/expansion';
 import {MatButtonModule} from '@angular/material/button';
 import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
@@ -35,8 +36,8 @@ import { ServicesComponent as ServComponent} from './Services/Services.component
       MainComponent,
       AboutComponent,
       AboutusComponent,
-      TestiComponent,
-      ServComponent
+      ServComponent,
+      TestiComponent
    ],
   imports: [
     CommonModule,
@@ -45,7 +46,8 @@ import { ServicesComponent as ServComponent} from './Services/Services.component
     MatButtonModule,
     MatProgressSpinnerModule,
     SwiperModule,
-    MatButtonModule
+    MatButtonModule,
+    MatExpansionModule
   ],
   providers: [],
   bootstrap: []

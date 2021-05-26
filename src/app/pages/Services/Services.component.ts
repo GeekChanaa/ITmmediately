@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-Services',
@@ -7,7 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ServicesComponent implements OnInit {
 
-  constructor() { }
+  constructor(private elem : ElementRef) { 
+    this.elem.nativeElement.ownerDocument.body.style.setProperty("overflow", "visible", "important");
+    document.getElementById("html").style.overflow = "visible";
+  }
 
   ngOnInit() {
   }

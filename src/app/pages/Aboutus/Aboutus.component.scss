@@ -107,12 +107,114 @@
 /* Slider */
 
 .company-logo{
-    height: 200px;
+    height: 250px;
     box-shadow: 0px 19px 66px #6F6D7121;
-    width: 200px;
-    margin-top: 10px;
+    width: 250px;
+    margin-top: 50px;
     margin-left:auto;
     margin-right:auto;
     background-size: cover;
+    padding: 2em;
 }
 
+.company-logo img {
+    width: 100%;
+}
+
+
+
+// Images Positioning
+
+.section-img-1{
+ position: absolute;
+}
+
+.section-img-2{
+    right: -10%;
+    top: 100px;
+    position: absolute;
+}
+
+.section-img-3{
+    left: -923px;
+    top: 200px;
+    position: absolute;
+}
+
+.section-img-4{
+    position: absolute;
+}
+
+.section2-img-1{
+    position: absolute;
+    width: 150%;
+    max-width: 150%;
+    right: 100px;
+    top: -300px;
+}
+
+
+@media only screen and (max-width: 1500px)
+{
+    
+
+    
+}
+
+
+@media only screen and (max-width: 1199px)
+{
+    .section-img-1{
+        width: 80%;
+        left: 10%;
+        top: 50px;
+    }
+    .section-hero-1{
+        height: 500px;
+    }
+
+    .section2-img-1{
+        position: initial;
+        width: auto;
+        max-width: 100%;
+        right: 100px;
+        top: -300px;
+    }
+
+    .md-hide{
+        display: none;
+    }
+
+    .flex-md-reverse{
+        flex-wrap: wrap-reverse;
+    }
+
+    .title{
+        font-size: 4em;
+    }
+}
+
+@media only screen and (max-width: 991px)
+{
+    .title{
+        font-size: 3em;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    .sm-hide{
+        display: none;
+    }
+
+    .title{
+        font-size: 2em;
+    }
+}   
+
+@media only screen and (max-width: 575px)
+{
+    .title{
+        font-size: 2em;
+    }
+}

@@ -1,3 +1,7 @@
+.flex-md-reverse{
+    flex-wrap: wrap-reverse;
+}
+
 // Global styles
 .d-flex{
     display: flex !important;
@@ -106,6 +110,39 @@ h1{
     width:101%;
 }
 
+
+// faq section
+.faq-title{
+    width: 100%;
+    text-align: center;
+}
+
+
+.questions{
+    max-width: 80%;
+    margin-left: 10%;
+}
+.question{
+    font-size: 1em;
+    font-weight: bold;
+    color: black;
+    font-family: "Montserrat";
+}
+
+.answer{
+    font-size: 1em;
+    font-weight: 400;
+    font-family: "Montserrat";
+}
+
+.mat-expansion-panel-header{
+    padding: 2em;
+}
+
+.mat-expansion-panel-body{
+    padding: 2em;
+}
+
 .language{
     padding: 0.4em;
     margin : 5px;
@@ -159,4 +196,70 @@ h1{
 .get-in-contact{
     background: rgb(66, 66, 73);
     padding: 3em;
+}
+
+// Images positionning
+.section-img-1{
+    position: absolute; 
+    width: 30%;
+    top: 69%;
+    left: 15%;
+}
+.section-img-2{
+    position: absolute; 
+    width: 40%;
+    left: 30%;
+}
+.section-img-3{
+    position: absolute; 
+    width: 17%;
+    left: 65%;
+    top: 40%;
+}
+
+
+
+
+
+@media only screen and (max-width: 1499px)
+{
+    
+}
+
+@media only screen and (max-width: 1199px)
+{
+   
+}
+
+@media only screen and (max-width: 991px)
+{
+    .section-img-1{
+        position: absolute; 
+        width: 30%;
+        top: 60%;
+        left: 15%;
+    }
+}
+
+@media only screen and (max-width: 767px)
+{
+    
+}
+
+@media only screen and (max-width: 575px)
+{
+    .section-img-1{
+        width: 50%;
+        top: 64%;
+        left: 10px;
+    }
+    .section-img-2{
+        width: 80%;
+        left: 10%;
+    }
+    .section-img-3{
+        width: 30%;
+        left: 65%;
+        top: 40%;
+    }    
 }
