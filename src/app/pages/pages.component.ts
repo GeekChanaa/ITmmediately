@@ -1,4 +1,4 @@
-import { Component, OnInit, Renderer2 } from '@angular/core';
+import { AfterViewInit, Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
 
 @Component({
   selector: 'app-pages',
@@ -7,10 +7,12 @@ import { Component, OnInit, Renderer2 } from '@angular/core';
 })
 export class PagesComponent implements OnInit {
 
+  loading : boolean = false;
   
   constructor(private renderer: Renderer2) {
     this.InitCss();
     this.InitScripts();
+    
     setTimeout(() => {
       let loader = this.renderer.selectRootElement('.animsition-loading-2');
       this.renderer.setStyle(loader, 'display', 'none');
@@ -19,6 +21,7 @@ export class PagesComponent implements OnInit {
 
   ngOnInit() {
   }
+
 
   InitScripts(){
     const dynamicJs = [

@@ -2,6 +2,19 @@
     flex-wrap: wrap-reverse;
 }
 
+.pt-20{
+    padding-top: 15px;
+}
+
+
+
+// Video Styling
+.laptop-video{
+    width: 80%;
+    margin-left: 5%;
+    height: auto;
+}
+
 // Global styles
 .d-flex{
     display: flex !important;
@@ -9,6 +22,9 @@
 
 .mb-2{
     margin-bottom: 8px !important;
+}
+.mb-12{
+    margin-bottom: 50px !important;
 }
 
 .flex-items-center{
@@ -26,6 +42,10 @@
 
 .w-100{
     width:100%
+}
+
+.no-wrap{
+    flex-wrap: nowrap;
 }
 
 h1{
@@ -60,44 +80,53 @@ h1{
 
 .ml-n-1{
     margin-left: -8em;
+    margin-right:  8em;
 }
 
 .ml-n-2{
     
     margin-left: -16em;
+    margin-right:  16em;
 }
 
 .ml-n-3{
     
     margin-left: -24em;
+    margin-right:  24em;
 }
 
 .ml-n-4{
     
     margin-left: -32em;
+    margin-right:  32em;
 }
 
 .mr-n-0{
     margin-right : -4em;
+    margin-left : 4em;
 }
 
 .mr-n-1{
      margin-right: -11em;
+     margin-left : 11em;
 }
 
 .mr-n-2{
      
     margin-right: -19em;
+    margin-left : 19em;
 }
 
 .mr-n-3{
      
     margin-right: -27em;
+    margin-left : 27em;
 }
 
 .mr-n-4{
      
     margin-right: -35em;
+    margin-left : 35em;
 }
 
 .justify-content-right{
@@ -125,7 +154,7 @@ h1{
 .question{
     font-size: 1em;
     font-weight: bold;
-    color: black;
+    color: #7399c8;
     font-family: "Montserrat";
 }
 
@@ -157,7 +186,7 @@ h1{
 }
 
 .language-img{
-    height: 70px;
+    height: auto;
     width: 70px;
 }
 
@@ -217,18 +246,46 @@ h1{
     top: 40%;
 }
 
+.main-img{
+    height: 70vh;
+}
 
 
+// Images for services
+.service-img{
+    max-height: 550px;
+    width: 100%;
+    object-fit: cover;
+}
 
 
 @media only screen and (max-width: 1499px)
 {
-    
+    .main-img{
+        height: 60vh;
+    }
 }
 
 @media only screen and (max-width: 1199px)
 {
-   
+    .main-img{
+        height: 55vh;
+    }
+
+    .contact-button{
+        padding: 0.5em 2em;
+        font-size: 0.9em;
+        font-weight: 400;
+    }
+    
+    .contact-content{
+        padding: 0.8em;
+        font-size: 0.9em;  
+    }
+    
+    .contact-title{
+        font-size: 2.5em;
+    }
 }
 
 @media only screen and (max-width: 991px)
@@ -239,10 +296,46 @@ h1{
         top: 60%;
         left: 15%;
     }
+
+    .ml-n-2, .ml-n-1 ,.ml-n-0 ,.ml-n-4, .ml-n-3, .mr-n-0,.mr-n-1,.mr-n-2,.mr-n-3,.mr-n-4{
+        margin-left: 0;
+        margin-right:  0;
+    }
+
+    .laptop-video{
+        width: 100%;
+        height: auto;
+    }
+
+    .justify-content-center--sm{
+        justify-content: center !important;
+    }
+
+    .questions{
+        max-width: 100%;
+        margin-left: 0;
+    }
+
+    // faq section
+    .faq-title{
+        width: 100%;
+        text-align: center;
+        font-size: 2.5em;
+    }
+
+
+    
 }
 
 @media only screen and (max-width: 767px)
 {
+    // faq section
+    .faq-title{
+        width: 100%;
+        text-align: center;
+        font-size: 1.5em;
+    }
+
     
 }
 

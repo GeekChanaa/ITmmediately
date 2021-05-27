@@ -24,6 +24,8 @@ import { AboutComponent } from './Main/about/about.component';
 import { AboutusComponent } from './Aboutus/Aboutus.component';
 import { TestiComponent } from './Aboutus/testi/testi.component';
 import { ServicesComponent as ServComponent} from './Services/Services.component';
+import { HTTP_INTERCEPTORS } from '@angular/common/http';
+import { InterceptorService } from '../_services/interceptor.service';
 
 @NgModule({
   declarations: [	
@@ -49,7 +51,10 @@ import { ServicesComponent as ServComponent} from './Services/Services.component
     MatButtonModule,
     MatExpansionModule
   ],
-  providers: [],
+  providers: [
+    {provide : HTTP_INTERCEPTORS, useClass:InterceptorService, multi : true},
+    
+  ],
   bootstrap: []
 })
 export class PagesModule { }

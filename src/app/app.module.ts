@@ -18,6 +18,8 @@ import { AboutusComponent } from './pages/Aboutus/Aboutus.component';
 import {SwiperModule} from 'swiper/angular';
 import { ContactComponent } from './pages/Contact/Contact.component';
 import { CommonModule } from '@angular/common';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { InterceptorService } from './_services/interceptor.service';
 
 @NgModule({
   declarations: [		
@@ -34,8 +36,11 @@ import { CommonModule } from '@angular/common';
     MatButtonModule,
     MatProgressSpinnerModule,
     SwiperModule,
+    HttpClientModule 
   ],
-  providers: [],
+  providers: [
+    {provide : HTTP_INTERCEPTORS, useClass:InterceptorService, multi : true},
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
