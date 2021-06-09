@@ -26,6 +26,9 @@ import { TestiComponent } from './Aboutus/testi/testi.component';
 import { ServicesComponent as ServComponent} from './Services/Services.component';
 import { HTTP_INTERCEPTORS } from '@angular/common/http';
 import { InterceptorService } from '../_services/interceptor.service';
+import { ContactComponent } from './Contact/Contact.component';
+import { FormsModule } from '@angular/forms';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
 
 @NgModule({
   declarations: [	
@@ -39,7 +42,9 @@ import { InterceptorService } from '../_services/interceptor.service';
       AboutComponent,
       AboutusComponent,
       ServComponent,
-      TestiComponent
+      TestiComponent,
+      ContactComponent,
+
    ],
   imports: [
     CommonModule,
@@ -49,7 +54,9 @@ import { InterceptorService } from '../_services/interceptor.service';
     MatProgressSpinnerModule,
     SwiperModule,
     MatButtonModule,
-    MatExpansionModule
+    MatExpansionModule,
+    FormsModule,
+    MatSnackBarModule
   ],
   providers: [
     {provide : HTTP_INTERCEPTORS, useClass:InterceptorService, multi : true},

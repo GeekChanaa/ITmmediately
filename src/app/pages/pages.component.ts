@@ -1,4 +1,5 @@
-import { AfterViewInit, Component, ElementRef, OnInit, Renderer2 } from '@angular/core';
+import { AfterContentInit, AfterViewInit, Component, ElementRef, OnChanges, OnInit, Renderer2 } from '@angular/core';
+import { NavigationEnd, NavigationStart, Router, RouterEvent } from '@angular/router';
 
 @Component({
   selector: 'app-pages',
@@ -9,19 +10,37 @@ export class PagesComponent implements OnInit {
 
   loading : boolean = false;
   
-  constructor(private renderer: Renderer2) {
+  constructor(
+    private renderer: Renderer2,
+    private router : Router
+    ) {
     this.InitCss();
     this.InitScripts();
-    
     setTimeout(() => {
-      let loader = this.renderer.selectRootElement('.animsition-loading-2');
+      let loader = this.renderer.selectRootElement('.spinner-container');
       this.renderer.setStyle(loader, 'display', 'none');
-    }, 1000);
+    }, 1500); 
+    
+      
    }
+
+   checkRouteChange( routerEvent:RouterEvent){
+
+    console.log("router event");
+    console.log(routerEvent);
+    
+    // if route change started
+    if(routerEvent instanceof NavigationStart){
+  
+      let loader = this.renderer.selectRootElement('.spinner-container');
+      this.renderer.setStyle(loader, 'display', 'initial');
+  
+    }
+  
+  } 
 
   ngOnInit() {
   }
-
 
   InitScripts(){
     const dynamicJs = [

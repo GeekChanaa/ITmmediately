@@ -25,7 +25,6 @@ import { InterceptorService } from './_services/interceptor.service';
   declarations: [		
       AppComponent,
       NavbarComponent,
-      ContactComponent,
    ],
   imports: [
     BrowserModule,

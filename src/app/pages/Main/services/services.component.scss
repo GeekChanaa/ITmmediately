@@ -1,11 +1,12 @@
 
 .services-title{
-    font-size:3.775em
+    font-size:2.5em;
+    color:#B73382;
 }
 
 .services-sub-title{
-    color:#B73382;
-    font-size:2em
+    font-size:3em;
+    font-weight: bold;
 }
 
 canvas{
@@ -32,11 +33,11 @@ canvas{
 @media only screen and (max-width: 1199px)
 {
     .services-title{
-        font-size:3.275em !important;
+        font-size:2em !important;
     }
     
     .services-sub-title{
-        font-size:2em
+        font-size:2.775em
     }
 
     
@@ -45,34 +46,29 @@ canvas{
 @media only screen and (max-width: 991px)
 {
     .services-title{
-        font-size:3em
+        font-size:1.8em
     }
     
     .services-sub-title{
-        font-size:1.5em
+        font-size:2.5em
     }
+
+    
 }
 
 @media only screen and (max-width: 767px)
 {
-    .services-title{
-        font-size:5em
-    }
-    
-    .services-sub-title{
-        font-size:2em
-    }
 }
 
 @media only screen and (max-width: 575px)
 {
     .services-title{
-        font-size:3em;
+        font-size:1.2em;
         padding: 20px;
     }
     
     .services-sub-title{
-        font-size: 1em;
+        font-size: 1.7em;
         padding: 20px;
     }
 

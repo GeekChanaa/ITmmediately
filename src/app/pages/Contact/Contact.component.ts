@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { MailService } from 'src/app/_services/mail.service';
+import {MatSnackBar} from '@angular/material/snack-bar';
 
 @Component({
   selector: 'app-Contact',
@@ -7,9 +9,21 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { }
+  // Mail properties
+  mail : any = {};
+  // Constructor
+  constructor(
+    private _mailService : MailService,
+    private _matSnackBar : MatSnackBar
+  ) { }
 
   ngOnInit() {
+  }
+
+  sendmail(){
+    this._mailService.sendEmail(this.mail).subscribe((data) => {
+      this._matSnackBar.open("Email Sent Succesfully");
+    });
   }
 
 }

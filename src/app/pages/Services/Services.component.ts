@@ -15,5 +15,9 @@ export class ServicesComponent implements OnInit {
   ngOnInit() {
   }
 
+  imageLoaded(){
+    console.log("an image has been loaded");
+  }
+
 
 }
